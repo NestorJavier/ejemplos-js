@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Agenda Contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Agenda</h1>
+    </header>
+        <form id="my-form">
+            
+            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="telefono" id="telefono">
+            <input type="text" name="correo" id="correo">
+            <input class="btn" type="submit" value="Insertar">
+            <button id="update"> Actualizar </button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+                
+            </tbody>
+            <!-- <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td id="total">$00.00</td>
+                </tr>
+            </tfoot> -->
+        </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
